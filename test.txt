@@ -5,14 +5,15 @@ CMD
 4. pip install Requirements.txt
 5. pip install -r Requirements.txt  # recurring call (-r)
 
-bash
+
+#BASH PROMPT
 
 conda create -p env python=3.8 -y
 
 source activate ./env
 
 
----iniatlize git 
+#INITIALIZE THE GITHUB SETUP  
 
 git init
 
@@ -22,7 +23,7 @@ flask takes 5000 code
 
 
 
-#import the code to github
+#IMPORT CODE TO GITHUB
 
 1.git add .
 git status
@@ -30,12 +31,14 @@ git commit -m "first commit"
 git branch
 git push origin 
 
-update to git 
+# UPDATE THE GITHUB FILES
 1. git add .
 2. git commit -m "json updated" 
 3. git push origin main 
 
 
+
+# CODE FOR POSTMAN TO PUSH THE DATA TO FLASK APPLICATION 
     {
     "operation": "add",
     "number1": 10,
